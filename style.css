@@ -1,0 +1,23 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+#title, #description {
+    text-align: center;
+}
+#survey-form {
+    margin: 50px;
+}
+label {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+form select {
+    border-radius: 0.25rem;
+    width: 100%;
+    margin-bottom: 30px;
+}
+input[type='text'],input[type='email'],input[type='number'], button, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
